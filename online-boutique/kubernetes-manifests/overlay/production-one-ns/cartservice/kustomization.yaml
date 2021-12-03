@@ -1,0 +1,9 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: hipstershop
+# namePrefix: prod-
+resources:
+- deployment_cartservice.yaml
+- service_cartservice.yaml
+- deployment_redis.yaml
+- service_redis.yaml
