@@ -25,6 +25,18 @@
             "categories": ["clothing", "tops"]
         },
         {
+            "id": "77VCHSJNUP",
+            "name": "T-shirt Kubernetes",
+            "description": "Perfectly cropped cotton t-shirt, with a message.",
+            "picture": "/static/img/products/k8s-tshirt.jpg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 88,
+                "nanos": 990000000
+            },
+            "categories": ["clothing", "tops"]
+        },
+        {
             "id": "1YMWWN1N4O",
             "name": "Watch",
             "description": "This gold-tone stainless steel watch will work with most of your outfits.",
