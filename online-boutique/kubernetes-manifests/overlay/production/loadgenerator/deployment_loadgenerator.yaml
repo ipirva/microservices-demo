@@ -32,13 +32,13 @@ spec:
         image: busybox:latest
         env:
         - name: FRONTEND_ADDR
-          value: "frontend:80"
+          value: "frontend.hipstershop-frontend:80"
       containers:
       - name: main
         image: gcr.io/google-samples/microservices-demo/loadgenerator:v0.3.1
         env:
         - name: FRONTEND_ADDR
-          value: "frontend:80"
+          value: "frontend.hipstershop-frontend:80"
         - name: USERS
           value: "10"
         resources:
