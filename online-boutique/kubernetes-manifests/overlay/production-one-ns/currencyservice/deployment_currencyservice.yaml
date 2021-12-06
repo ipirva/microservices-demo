@@ -22,8 +22,6 @@ spec:
         env:
         - name: PORT
           value: "7000"
-        - name: GCLOUD_PROJECT
-          value: ipirva
         # - name: DISABLE_TRACING
         #   value: "1"
         # - name: DISABLE_PROFILER
