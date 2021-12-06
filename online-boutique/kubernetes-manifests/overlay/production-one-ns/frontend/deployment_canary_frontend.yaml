@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: frontend-canary
-  labels:
-    app: frontend
 spec:
   selector:
     matchLabels:
