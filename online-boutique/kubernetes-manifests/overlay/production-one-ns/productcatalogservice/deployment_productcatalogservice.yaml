@@ -4,7 +4,6 @@ metadata:
   name: productcatalogservice
   labels:
     app: productcatalogservice
-    env: production
 spec:
   selector:
     matchLabels:
