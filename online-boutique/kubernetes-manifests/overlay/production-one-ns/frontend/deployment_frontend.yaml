@@ -6,7 +6,6 @@ spec:
   selector:
     matchLabels:
       app: frontend
-      env: production
   template:
     metadata:
       labels:

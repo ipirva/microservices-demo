@@ -6,7 +6,6 @@ spec:
   selector:
     matchLabels:
       app: frontend
-      env: canary
   template:
     metadata:
       labels:
