@@ -4,5 +4,4 @@ namespace: hipstershop
 # namePrefix: prod-
 resources:
 - deployment_frontend.yaml
-- service_frontend.yaml
 - deployment_canary_frontend.yaml
