@@ -6,3 +6,4 @@ resources:
 - deployment_frontend.yaml
 - deployment_canary_frontend.yaml
 - service_frontend.yaml
+- service_canary_frontend.yaml
