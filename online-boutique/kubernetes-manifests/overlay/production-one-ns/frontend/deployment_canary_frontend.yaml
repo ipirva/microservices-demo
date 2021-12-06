@@ -4,6 +4,7 @@ metadata:
   name: frontend-canary
   labels:
     app: frontend
+    env: canary
 spec:
   selector:
     matchLabels:

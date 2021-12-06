@@ -4,6 +4,7 @@ metadata:
   name: productcatalogservice-canary
   labels:
     app: productcatalogservice
+    env: canary
 spec:
   selector:
     matchLabels:

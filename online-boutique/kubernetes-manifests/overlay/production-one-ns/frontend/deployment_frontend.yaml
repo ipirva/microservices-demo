@@ -4,6 +4,7 @@ metadata:
   name: frontend
   labels:
     app: frontend
+    env: production
 spec:
   selector:
     matchLabels:
