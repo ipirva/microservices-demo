@@ -44,19 +44,19 @@ spec:
           - name: PORT
             value: "8080"
           - name: PRODUCT_CATALOG_SERVICE_ADDR
-            value: "productcatalogservice.hipstershop:3550"
+            value: "productcatalogservice.int-sm-gns-hipstershop.cloud.7357.link:3550"
           - name: CURRENCY_SERVICE_ADDR
-            value: "currencyservice.hipstershop:7000"
+            value: "currencyservice.int-sm-gns-hipstershop.cloud.7357.link:7000"
           - name: CART_SERVICE_ADDR
-            value: "cartservice.hipstershop:7070"
+            value: "cartservice.int-sm-gns-hipstershop.cloud.7357.link:7070"
           - name: RECOMMENDATION_SERVICE_ADDR
-            value: "recommendationservice.hipstershop:8080"
+            value: "recommendationservice.int-sm-gns-hipstershop.cloud.7357.link:8080"
           - name: SHIPPING_SERVICE_ADDR
-            value: "shippingservice.hipstershop:50051"
+            value: "shippingservice.int-sm-gns-hipstershop.cloud.7357.link:50051"
           - name: CHECKOUT_SERVICE_ADDR
-            value: "checkoutservice.hipstershop:5050"
+            value: "checkoutservice.int-sm-gns-hipstershop.cloud.7357.link:5050"
           - name: AD_SERVICE_ADDR
-            value: "adservice.hipstershop:9555"
+            value: "adservice.int-sm-gns-hipstershop.cloud.7357.link:9555"
           # # ENV_PLATFORM: One of: local, gcp, aws, azure, onprem, alibaba
           # # When not set, defaults to "local" unless running in GKE, otherwies auto-sets to gcp
           # - name: ENV_PLATFORM
