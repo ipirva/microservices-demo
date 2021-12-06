@@ -27,17 +27,17 @@ spec:
           - name: PORT
             value: "5050"
           - name: PRODUCT_CATALOG_SERVICE_ADDR
-            value: "productcatalogservice.int-sm-gns-hipstershop.cloud.7357.link:3550"
+            value: "productcatalogservice.hipstershop:3550"
           - name: SHIPPING_SERVICE_ADDR
-            value: "shippingservice.int-sm-gns-hipstershop.cloud.7357.link:50051"
+            value: "shippingservice.hipstershop:50051"
           - name: PAYMENT_SERVICE_ADDR
-            value: "paymentservice.int-sm-gns-hipstershop.cloud.7357.link:50051"
+            value: "paymentservice.hipstershop:50051"
           - name: EMAIL_SERVICE_ADDR
-            value: "emailservice.int-sm-gns-hipstershop.cloud.7357.link:5000"
+            value: "emailservice.hipstershop:5000"
           - name: CURRENCY_SERVICE_ADDR
-            value: "currencyservice.int-sm-gns-hipstershop.cloud.7357.link:7000"
+            value: "currencyservice.hipstershop:7000"
           - name: CART_SERVICE_ADDR
-            value: "cartservice.int-sm-gns-hipstershop.cloud.7357.link:7070"
+            value: "cartservice.hipstershop:7070"
           # - name: DISABLE_STATS
           #   value: "1"
           # - name: DISABLE_TRACING
