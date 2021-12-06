@@ -3,13 +3,11 @@ kind: Deployment
 metadata:
   name: frontend-canary
   labels:
-    app: frontend
     env: canary
 spec:
   selector:
     matchLabels:
       app: frontend
-      env: canary
   template:
     metadata:
       labels:
@@ -44,7 +42,7 @@ spec:
           - name: PORT
             value: "8080"
           - name: PRODUCT_CATALOG_SERVICE_ADDR
-            value: "productcatalogservice-canary.hipstershop:3550"
+            value: "productcatalogservice.hipstershop:3550"
           - name: CURRENCY_SERVICE_ADDR
             value: "currencyservice.hipstershop:7000"
           - name: CART_SERVICE_ADDR

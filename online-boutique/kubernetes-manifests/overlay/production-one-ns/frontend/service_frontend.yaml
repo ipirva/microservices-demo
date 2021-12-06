@@ -6,7 +6,6 @@ spec:
   type: ClusterIP
   selector:
     app: frontend
-    env: production
   ports:
   - name: http
     port: 80
