@@ -6,7 +6,7 @@ spec:
   type: ClusterIP
   selector:
     app: frontend
-    env: production
+    env: canary
   ports:
   - name: http
     port: 80
