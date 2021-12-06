@@ -6,12 +6,10 @@ spec:
   selector:
     matchLabels:
       app: frontend
-      env: production
   template:
     metadata:
       labels:
         app: frontend
-        env: production
       annotations:
         sidecar.istio.io/rewriteAppHTTPProbers: "true"
     spec:
