@@ -5,12 +5,12 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: productcatalogservice
+      app: productcatalogservice-xxx
       env: canary
   template:
     metadata:
       labels:
-        app: productcatalogservice
+        app: productcatalogservice-xxx
         env: canary
     spec:
       serviceAccountName: default
