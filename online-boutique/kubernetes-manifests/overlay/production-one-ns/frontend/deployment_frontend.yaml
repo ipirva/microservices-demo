@@ -65,7 +65,7 @@ spec:
           - name: DISABLE_DEBUGGER
             value: "0"
           - name: CYMBAL_BRANDING
-            value: "false"
+            value: "true"
           resources:
             requests:
               cpu: 100m
