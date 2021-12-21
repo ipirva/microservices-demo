@@ -39,7 +39,7 @@ spec:
           - name: PORT
             value: "8080"
           - name: PRODUCT_CATALOG_SERVICE_ADDR
-            value: "productcatalogservice.hipstershop-nosm:3550"
+            value: "productcatalogservice.hipstershop:3550"
           - name: CURRENCY_SERVICE_ADDR
             value: "currencyservice.hipstershop-nosm:7000"
           - name: CART_SERVICE_ADDR
@@ -65,7 +65,7 @@ spec:
           - name: DISABLE_DEBUGGER
             value: "0"
           - name: CYMBAL_BRANDING
-            value: "true"
+            value: "false"
           resources:
             requests:
               cpu: 100m
