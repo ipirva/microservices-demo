@@ -10,4 +10,4 @@ spec:
   - name: grpc
     port: 7070
     targetPort: 7070
-    appProtocol: https
+    appProtocol: grpc
