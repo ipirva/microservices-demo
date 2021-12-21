@@ -17,7 +17,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server-canary
-        # image: gcr.io/google-samples/microservices-demo/productcatalogservice:v0.3.1
+        # image: gcr.io/google-samples/microservices-demo/productcatalogservice:v0.3.4
         image: ipirva/shop-productcatalogservice:v1.2
         ports:
         - containerPort: 3550
