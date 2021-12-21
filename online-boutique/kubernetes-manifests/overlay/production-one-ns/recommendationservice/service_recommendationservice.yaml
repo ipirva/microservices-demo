@@ -10,4 +10,4 @@ spec:
   - name: grpc
     port: 8080
     targetPort: 8080
-    appProtocol: http
+    appProtocol: https
