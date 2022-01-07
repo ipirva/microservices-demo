@@ -7,7 +7,7 @@ resources:
 #- checkoutservice
 #- currencyservice
 #- emailservice
-#- frontend
+- frontend
 #- loadgenerator
 #- paymentservice
 #- productcatalogservice
