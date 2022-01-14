@@ -5,11 +5,11 @@ resources:
 #- adservice
 - cartservice
 #- checkoutservice
-#- currencyservice
+- currencyservice
 #- emailservice
 - frontend
 #- loadgenerator
 #- paymentservice
-#- productcatalogservice
-#- recommendationservice
+- productcatalogservice
+- recommendationservice
 #- shippingservice
