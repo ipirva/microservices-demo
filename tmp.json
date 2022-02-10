@@ -1,0 +1,25 @@
+{
+    "apiVersion": "v1",
+    "kind": "Namespace",
+    "metadata": {
+        "annotations": {
+            "kapp-controller.carvel.dev/exclude-global-packages": "",
+            "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Namespace\",\"metadata\":{\"annotations\":{},\"labels\":{\"app.kubernetes.io/instance\":\"acmeshop-aws\"},\"name\":\"acmeshop\"}}\n"
+        },
+        "creationTimestamp": "2021-12-21T19:49:00Z",
+        "deletionTimestamp": "2022-01-05T08:37:09Z",
+        "labels": {
+            "app.kubernetes.io/instance": "acmeshop-aws",
+            "istio-injection": "enabled",
+            "kubernetes.io/metadata.name": "acmeshop"
+        },
+        "name": "acmeshop",
+        "resourceVersion": "40386807",
+        "uid": "0a3b9f6d-5aa1-4051-8487-63972e408b2c"
+    },
+    "spec": {
+    },
+    "status": {
+        "phase": "Terminating"
+    }
+}
